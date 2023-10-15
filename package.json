@@ -1,0 +1,33 @@
+{
+  "name": "heimdall-desktop",
+  "version": "1.0.0",
+  "description": "A simple Desktop application for Heimdall Application Dashboard, built using Electron.js",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikepruett3/heimdall-desktop.git"
+  },
+  "keywords": [
+    "Electron",
+    "Heimdall"
+  ],
+  "author": {
+    "name": "Mike Pruett",
+    "email": "mikepruett3@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikepruett3/heimdall-desktop/issues"
+  },
+  "homepage": "https://github.com/mikepruett3/heimdall-desktop#readme",
+  "devDependencies": {
+    "electron": "^27.0.0"
+  },
+  "dependencies": {
+    "electron-prompt": "^1.7.0",
+    "electron-store": "^8.1.0"
+  }
+}
